@@ -54,7 +54,7 @@ ul {
     display: flex;
     justify-content:space-between;
     background-color: #1F2937;
-    text-align: left;
+    
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
@@ -63,7 +63,7 @@ ul {
 
 .hero-picture img {
      
-        max-width: 50%;
+        max-width: 350px;
         height: auto;
       }
 
@@ -76,6 +76,7 @@ ul {
 
 .hero-main-title {
     width: 500px;
+    text-align: left;
 }
 
 .hero-secondary-text {
@@ -111,7 +112,7 @@ ul {
 }
 
 .signup {
-    background-color: #3882F6;
+    
 }
 
 .quote {
@@ -131,11 +132,25 @@ ul {
 
 .signup-text {
     color: #F9FAF8;
+    
+}
+
+.signup-all {
+    background-color: #3882F6;
+    margin: 65px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 45px;
+    border: 4px solid #3882F6;
+        border-radius: 15px;
+        margin: 20px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 30px;
 }
 
 button {
